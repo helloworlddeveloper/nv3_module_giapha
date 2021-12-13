@@ -1,0 +1,22 @@
+/**
+ * @Project NUKEVIET 3.0
+ * @Author VINADES.,JSC (contact@vinades.vn)
+ * @Copyright (C) 2010 VINADES.,JSC. All rights reserved
+ * @Createdate Sun, 17 Jul 2011 03:36:01 GMT
+ */
+
+.filetree span.male,.filetree span.female, span.default {
+	padding: 1px 0 1px 16px;
+}
+
+.filetree span.male {
+	background: url(../images/gia-pha/male.png) 0 0 no-repeat;
+}
+
+.filetree span.female {
+	background: url(../images/gia-pha/female.png) 0 0 no-repeat;
+}
+
+.filetree span.default {
+	background: url(../images/gia-pha/default.png) 0 0 no-repeat;
+}

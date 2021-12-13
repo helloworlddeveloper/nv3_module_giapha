@@ -1,0 +1,152 @@
+/**
+ * @Project NUKEVIET 3.0
+ * @Author VINADES.,JSC (contact@vinades.vn)
+ * @Copyright (C) 2010 VINADES.,JSC. All rights reserved
+ * @Createdate Sun, 17 Jul 2011 03:36:01 GMT
+ */
+
+table.tabnkv
+{
+	background: #fff;
+	border: 1px solid #dadada;
+	border-collapse: separate;
+	border-spacing: 1px;
+	caption-side: top;
+	empty-cells: show;
+	width: 100%;
+}
+table.tabnkv caption
+{
+	background: url('../images/arrows/arrow4_red.gif') no-repeat left center;
+	font: bold 13px/27px tahoma, verdana, sans-serif;
+	margin-top: 8px;
+	text-align: left;
+	text-indent: 12px;
+}
+table.tabnkv tbody
+{
+	background: #f7f7f7;
+}
+table.tabnkv tbody.second
+{
+	background: #eee;
+}
+table.tabnkv td a, table.tabnkv th a
+{
+	color: #333;
+	text-decoration: underline;
+}
+table.tabnkv td, table.tabnkv th
+{
+	padding: 7px 5px 7px 5px;
+}
+table.tabnkv tfoot
+{
+	background: #ccc;
+	font: bold 11px tahoma, verdana, sans-serif;
+}
+table.tabnkv th
+{
+	background: #ccc;
+	font-weight: normal;
+	text-align: left;
+}
+table.tabnkv thead, table.tabnkv .thead_box
+{
+	background: #8ab0ff;
+	font: bold 11px/18px tahoma, verdana, sans-serif;
+	white-space: nowrap;
+}
+table.tabnkv th.head1
+{
+	width: 35px;
+	text-align: center;
+	white-space: nowrap;
+}
+table.tabnkv td.col1
+{
+	text-align: center;
+	width: 35px;
+	font-size: 8px;
+	vertical-align: bottom;
+}
+table.tabnkv td.col2
+{
+	font-size: 8px;
+	width: 300px;
+}
+table.tabnkv tr.row1
+{
+	width: 35px;
+	text-align: center;
+}
+table.tabnkv td.align_r
+{
+	text-align: right;
+}
+ul.list-genealogy
+{
+	margin: 0 0 8px 0;
+	list-style-type: none;
+}
+ul.list-genealogy li
+{
+	float: left;
+	margin-right: 5px;
+	display: block;
+}
+ul.list-genealogy li a
+{
+	display: block;
+	float: left;
+	padding: 3px 8px 2px;
+	border: 1px solid #d9d9d9;
+	color: #00014E;
+	font-size: 1em;
+	text-transform: uppercase;
+	background: #FFFACD;
+}
+ul.list-genealogy li.ui-genealogys-selected a
+{
+	border: 1px solid #a63700;
+	background: #982100;
+	color: #fff;
+}
+.filetree span.male, .filetree span.female, span.default
+{
+	padding: 1px 0 1px 16px;
+}
+.filetree span.male
+{
+	background: url(../images/gia-pha/male.png) 0 0 no-repeat;
+}
+.filetree span.female
+{
+	background: url(../images/gia-pha/female.png) 0 0 no-repeat;
+}
+
+.filetree span.default {
+	background: url(../images/gia-pha/default.png) 0 0 no-repeat;
+}
+#biagiapha{
+    background: url(../images/gia-pha/bg-giapha.jpg) 0 0 no-repeat;
+    width: auto;
+    max-width: 620px;
+    *width:620px;
+    text-align: center; 
+    border:3px solid #6F3700; 
+    height: 877px;
+    margin: 0 auto;
+    color: #fff;
+}
+#tengiapha{
+    color: #FBFE00;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 160px 70px 70px;
+    text-shadow: 2px 2px 3px #666666, -1px -1px 3px, 1px 1px #666666, -1px -1px #FFFFFF;
+}
+
+#biagiapha .header{
+ font-size: 14px; padding-top: 50px; text-transform:uppercase; color: #ff0; 
+}
